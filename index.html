@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAS-Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Cash Box Calculator</h1>
+        <div><span>CB Amount: </span><input type="number" name="cbAmount" id="cbAmount" min="1"> <span>Number of People: </span><input type="number" name="peopleCount" id="peopleCount" min="1"></div>
+        <div class="result"><span id="totalResult">Total: </span><span id="perPersonResult">Per Person: </span></div>
+        <button class="btn" id="btn" onclick="calculateCashBox()">Calculate</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
