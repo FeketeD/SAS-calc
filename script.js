@@ -11,7 +11,7 @@ function calculateCashBox() {
       return;
     }
 
-    const total = cbAmount * 9000;
+    const total = cbAmount * 14000;
     const perPerson = total / peopleCount;
 
     totalResult.innerText += " " + total.toLocaleString('hu-HU') + " $";
